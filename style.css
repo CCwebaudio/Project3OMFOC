@@ -26,23 +26,81 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 5px solid rgb(241,241,241);
+    border-radius: 5px;
 }
 
 .note-menu {
     background-color: #fcdfda
 }
 
-.chic-menu {
-    background-color: #fef5fd
+.note-menu-title {
+    color: #000000;
+    font-family: 'Zhi Mang Xing';
+    font-weight: 500;
 }
+
+.note-menu-subtitle {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.chic-menu {
+    background-color: #fef5fd;
+}
+
+.chic-menu-title {
+    background: linear-gradient(to right,rgb(220,133,39),rgb(143,90,255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Redressed';
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.chic-menu-subtitle {
+    color:rgb(199,116,18);
+    font-size: 24px;
+}
+
 
 .papille-menu {
     background-color: #f9f9f9
 }
 
+.papille-menu-title {
+    background: linear-gradient(to right,rgb(2,53,225),rgb(8,137,251));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Dancing Script';
+    padding: 0 2px 0 2px;
+    font-weight: 500;
+    
+}
+
+.papille-menu-subtitle {
+    color:rgb(8,137,251);
+    font-size: 24px;
+}
+
 .palette-menu {
     background-color: #fdfffd
 }
+
+.palette-menu-title {
+    background: linear-gradient(to right,rgb(78,160,67),rgb(190,255,127));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Kaushan Script';
+    font-weight: 500;
+}
+
+.palette-menu-subtitle {
+    color:rgb(114,191,86);
+    font-size: 24px;
+}
+
 
 /* footer */
 
