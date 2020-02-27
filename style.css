@@ -101,6 +101,27 @@ header {
     font-size: 24px;
 }
 
+.home-body-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.prochainement {
+    background-color:#569c87;
+    border-radius: 10px;
+    border: 0 solid #ffffff;
+    cursor: pointer;
+}
+
+.prochainement-content {
+    padding: 0 50px 0 50px;
+    font-size: 20px;
+    color: #fcca46;
+    font-family: 'Spartan';
+}
+
 
 /* footer */
 
@@ -113,9 +134,11 @@ footer {
 .legacy-mention {
     color: #fcca46;
     margin-left: 20px;
+    font-family: 'Spartan';
 }
 
 .contact-us {
     color: #fcca46;
     margin-right: 20px;
+    font-family: 'Spartan';
 }
