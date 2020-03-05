@@ -26,9 +26,45 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 5px solid rgb(241,241,241);
-    border-radius: 5px;
+    box-shadow: 0px 0px 18px -4px rgba(180, 178, 178, 0.75);
 }
+
+.lien-menu {
+    text-decoration: none;
+}
+
+.menu-part {
+    display: flex;
+    flex-direction: column;
+}
+
+.part-title {
+    display: flex;
+    justify-content: center;
+}
+
+.plate-price {
+    display: flex;
+    justify-content: space-between;
+    width: 460px;
+}
+
+.plate-price ul {
+    padding-inline-start: 0;
+}
+
+.plate-price li {
+    list-style-type: none;
+}
+
+.plate li {
+    text-align: left;
+}
+
+.price li {
+    text-align: right;
+}
+
 
 .note-menu {
     background-color: #fcdfda
@@ -120,6 +156,13 @@ header {
     font-size: 20px;
     color: #fcca46;
     font-family: 'Spartan';
+}
+
+/* dispo-menu */
+
+.dispo-menu{
+    width: 500px;
+    height: 750px;
 }
 
 
