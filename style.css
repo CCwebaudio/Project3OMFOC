@@ -144,30 +144,37 @@ header {
 
 
 
-.papille-menu {
-    background-color: #f9f9f9
+.blue-theme {
+    background-color: #f9f9f9;
 }
 
-.papille-menu-title {
+.blue-theme-title {
     background: linear-gradient(to right,rgb(2,53,225),rgb(8,137,251));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Dancing Script';
     padding: 0 2px 0 2px;
-    font-weight: 500;
-    
+    font-weight: 500; 
 }
 
-.papille-menu-subtitle {
+.blue-theme-subtitle {
     color:rgb(8,137,251);
     font-size: 24px;
 }
 
-.palette-menu {
+.blue-title {
+    font-size: 45px;
+}
+
+
+
+
+
+.green-theme {
     background-color: #fdfffd
 }
 
-.palette-menu-title {
+.green-theme-title {
     background: linear-gradient(to right,rgb(78,160,67),rgb(190,255,127));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -175,10 +182,19 @@ header {
     font-weight: 500;
 }
 
-.palette-menu-subtitle {
+.green-theme-subtitle {
     color:rgb(114,191,86);
     font-size: 24px;
 }
+
+
+
+
+
+
+
+
+
 
 .principal-body-footer {
     display: flex;
