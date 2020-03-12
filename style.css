@@ -28,7 +28,9 @@ header {
     box-shadow: 0px 0px 18px -4px rgba(180, 178, 178, 0.75);
 }
 
-
+.base-disposition:hover {
+    box-shadow: 0px 0px 18px -4px rgba(210, 210, 210, 0.75);
+}
 
 /* dispo-menu */
 
@@ -82,11 +84,6 @@ header {
     font-family: 'PT Serif', serif;
 }
 
-
-
-
-
-
 .pink-theme {
     background-color: #fcdfda
 }
@@ -102,12 +99,6 @@ header {
     text-transform: uppercase;
     font-size: 24px;
 }
-
-
-
-
-
-
 
 .orablue-theme {
     background-color: #fef5fd;
@@ -139,11 +130,6 @@ header {
     color: rgb(110,76,204);
 }
 
-
-
-
-
-
 .blue-theme {
     background-color: #f9f9f9;
 }
@@ -166,10 +152,6 @@ header {
     font-size: 45px;
 }
 
-
-
-
-
 .green-theme {
     background-color: #fdfffd
 }
@@ -187,15 +169,6 @@ header {
     font-size: 24px;
 }
 
-
-
-
-
-
-
-
-
-
 .principal-body-footer {
     display: flex;
     justify-content: center;
@@ -203,21 +176,91 @@ header {
     height: 160px;
 }
 
-.prochainement {
-    background-color:#569c87;
-    border-radius: 10px;
-    border: 0 solid #ffffff;
-    cursor: pointer;
-}
-
-.prochainement-content {
-    padding: 0 50px 0 50px;
-    font-size: 20px;
+.prochainement-button {
+    display: flex;
+    justify-content: center;
     color: #fcca46;
+    background-color: #569c87;
+    margin-left: 20px;
+    font-size: 20px;
+    line-height: 50px;
+    width: 220px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
     font-family: 'Spartan';
 }
 
+.three-point {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    position: relative;
+}
 
+.little-point {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-left: 2px;
+    background-color: #fcca46;
+    position: relative;
+    top: 14px;
+    animation: bounce 0.9s infinite;
+}
+
+.first {
+    animation: bounce-first 0.9s infinite;
+}
+
+.second {
+    animation: bounce-second 0.9s infinite;
+}
+
+.third {
+    animation: bounce-third 0.9s infinite;
+}
+
+
+
+
+@keyframes wiggle{
+    0%{transform: rotate(0deg)}
+    3%{transform: rotate(-2deg)}
+    4%{transform: rotate(2deg)}
+    5%{transform: rotate(0deg)}
+    100%{transform: rotate(0deg)}
+}
+
+@keyframes bounce-first{
+    25%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes bounce-second{
+    50%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes bounce-third{
+    75%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
 
 /* footer */
 
@@ -225,16 +268,25 @@ footer {
     background-color: #569c87;
     display: flex;
     justify-content: space-between;
+    height: 50px;
 }
 
 .legacy-mention {
     color: #fcca46;
     margin-left: 20px;
+    font-size: 16px;
+    line-height: 50px;
+    text-decoration: none;
     font-family: 'Spartan';
+    animation: wiggle 5s infinite;
 }
 
 .contact-us {
     color: #fcca46;
     margin-right: 20px;
+    font-size: 16px;
+    line-height: 50px;
+    text-decoration: none;
     font-family: 'Spartan';
+    animation: wiggle 5s infinite;
 }
