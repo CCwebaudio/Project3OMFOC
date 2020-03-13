@@ -173,7 +173,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 160px;
+    height: 150px;
 }
 
 .prochainement-button {
@@ -202,10 +202,10 @@ header {
 }
 
 .little-point {
-    width: 8px;
-    height: 8px;
+    width: 6px;
+    height: 6px;
     border-radius: 50%;
-    margin-left: 2px;
+    margin-left: 3px;
     background-color: #fcca46;
     position: relative;
     top: 14px;
@@ -224,14 +224,11 @@ header {
     animation: bounce-third 0.9s infinite;
 }
 
-
-
-
 @keyframes wiggle{
     0%{transform: rotate(0deg)}
-    3%{transform: rotate(-2deg)}
-    4%{transform: rotate(2deg)}
-    5%{transform: rotate(0deg)}
+    3%{transform: rotate(-4deg)}
+    4%{transform: rotate(6deg)}
+    5%{transform: rotate(-0deg)}
     100%{transform: rotate(0deg)}
 }
 
@@ -268,25 +265,48 @@ footer {
     background-color: #569c87;
     display: flex;
     justify-content: space-between;
+    align-content: center;
     height: 50px;
+    line-height: 50px;
 }
 
 .legacy-mention {
     color: #fcca46;
     margin-left: 20px;
     font-size: 16px;
-    line-height: 50px;
     text-decoration: none;
     font-family: 'Spartan';
-    animation: wiggle 5s infinite;
+    
+    animation: wiggle 1.5s infinite;
 }
 
 .contact-us {
     color: #fcca46;
     margin-right: 20px;
     font-size: 16px;
-    line-height: 50px;
     text-decoration: none;
     font-family: 'Spartan';
-    animation: wiggle 5s infinite;
+
+    animation: wiggle 1.5s infinite;
+}
+
+
+/* --- Responsive Design  --- */
+
+
+@media (max-width: 380px) {
+    .prochainement-button {
+        background-color: #569c87;
+        font-size: 16px;
+    }
+    
+    .legacy-mention {
+        font-size: 14px;
+        margin-left: 7px;  
+    }
+
+    .contact-us {
+        font-size: 14px;
+        margin-right: 7px;  
+    }
 }
