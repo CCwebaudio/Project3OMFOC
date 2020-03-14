@@ -172,7 +172,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150px;
+    height: 220px;
 }
 
 .prochainement-button {
@@ -267,6 +267,9 @@ footer {
     align-content: center;
     height: 50px;
     line-height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .legacy-mention {
@@ -296,10 +299,12 @@ footer {
 @media (max-width: 450px) {
     .base-disposition {
         height: 920px;
+        margin-bottom: 80px;
     }
 
     .disposition-thumbnail {
         height: 375px;
+        margin-bottom: 10px;
     }
 
     .dish-details {
