@@ -75,7 +75,6 @@ header {
     margin-block-end: 0;
     margin-bottom: 10px;
     justify-content: space-between;
-
 }
 
 .dish-details li {
@@ -294,7 +293,24 @@ footer {
 /* --- Responsive Design  --- */
 
 
-@media (max-width: 380px) {
+@media (max-width: 450px) {
+    .base-disposition {
+        height: 920px;
+    }
+
+    .disposition-thumbnail {
+        height: 375px;
+    }
+
+    .dish-details {
+        display: block;
+        text-align: center;
+    }
+    
+    .blue-title {
+        font-size: 30px;
+    }
+
     .prochainement-button {
         background-color: #569c87;
         font-size: 16px;
