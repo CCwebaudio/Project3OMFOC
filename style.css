@@ -19,7 +19,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-top: 150px;
+    padding-top: 110px;
 }
 
 .base-disposition {
@@ -175,8 +175,7 @@ header {
 .principal-body-footer {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 220px;
+    height: 140px;
 }
 
 .prochainement-button {
@@ -185,6 +184,7 @@ header {
     color: #fcca46;
     background-color: #569c87;
     margin-left: 20px;
+    margin-top: 15px;
     font-size: 20px;
     line-height: 50px;
     width: 220px;
