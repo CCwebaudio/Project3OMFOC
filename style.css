@@ -19,11 +19,11 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-top: 110px;
+    margin: 110px 0 50px 0;
 }
 
 .base-disposition {
-    width: 500px;
+    width: 450px;
     height: 750px;
     margin: 30px;
     display: flex;
@@ -83,7 +83,7 @@ header {
 
 .dish-details li {
     list-style-type: none;
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'PT Serif', serif;
 }
 
