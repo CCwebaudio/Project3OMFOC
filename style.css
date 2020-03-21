@@ -2,6 +2,9 @@ header {
     background-color: #569c87;
     display: flex;
     justify-content: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .agency-logo {
@@ -16,6 +19,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding-top: 150px;
 }
 
 .base-disposition {
@@ -278,9 +282,13 @@ footer {
     font-size: 16px;
     text-decoration: none;
     font-family: 'Spartan';
-    
+}
+
+.legacy-mention:hover {
     animation: wiggle 1.5s infinite;
 }
+
+
 
 .contact-us {
     color: #fcca46;
@@ -288,9 +296,13 @@ footer {
     font-size: 16px;
     text-decoration: none;
     font-family: 'Spartan';
+}
 
+.contact-us:hover {
     animation: wiggle 1.5s infinite;
 }
+
+
 
 
 /* --- Responsive Design  --- */
