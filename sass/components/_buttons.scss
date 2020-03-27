@@ -12,14 +12,24 @@
         font-family: 'Spartan';
         & .three_point{
             display: flex;
+            margin-left: 5px;
             & .little_point{
                 position: relative;
-                top: 12px;
+                top: 7px;
                 margin-left: 5px;
                 width: 6px;
                 height: 6px;
                 border-radius: 50%;
                 background-color: #fcca46;
+            }
+            & .first{
+                animation: bounce_first 0.9s infinite;
+            }
+            & .second{
+                animation: bounce_second 0.9s infinite;
+            }
+            & .third{
+                animation: bounce_third 0.9s infinite;
             }
         }
     }
@@ -30,4 +40,7 @@
     text-decoration: none;
     font-family: 'Spartan';
     padding: 20px;
+    &:hover{
+        animation: wiggle 1.5s infinite;
+    }
 }

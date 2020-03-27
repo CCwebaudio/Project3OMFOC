@@ -14,22 +14,57 @@ html {
     text-decoration: none;
     font-family: 'Spartan'; }
     .prochainement .prochainement_btn .three_point {
-      display: flex; }
+      display: flex;
+      margin-left: 5px; }
       .prochainement .prochainement_btn .three_point .little_point {
         position: relative;
-        top: 12px;
+        top: 7px;
         margin-left: 5px;
         width: 6px;
         height: 6px;
         border-radius: 50%;
         background-color: #fcca46; }
+      .prochainement .prochainement_btn .three_point .first {
+        animation: bounce_first 0.9s infinite; }
+      .prochainement .prochainement_btn .three_point .second {
+        animation: bounce_second 0.9s infinite; }
+      .prochainement .prochainement_btn .three_point .third {
+        animation: bounce_third 0.9s infinite; }
 
 .footer_btn {
   color: #fcca46;
   text-decoration: none;
   font-family: 'Spartan';
   padding: 20px; }
+  .footer_btn:hover {
+    animation: wiggle 1.5s infinite; }
 
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg); }
+  3% {
+    transform: rotate(-4deg); }
+  4% {
+    transform: rotate(6deg); }
+  5% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(0deg); } }
+@keyframes bounce_first {
+  25% {
+    transform: translateY(5px); }
+  100% {
+    transform: translateY(0px); } }
+@keyframes bounce_second {
+  50% {
+    transform: translateY(5px); }
+  100% {
+    transform: translateY(0px); } }
+@keyframes bounce_third {
+  75% {
+    transform: translateY(5px); }
+  100% {
+    transform: translateY(0px); } }
 .card_menu {
   width: 250px;
   height: 375px;
@@ -38,13 +73,18 @@ html {
   justify-content: center;
   align-items: center;
   box-shadow: 0px 0px 18px -4px rgba(180, 178, 178, 0.75); }
-  .card_menu:hover {
-    box-shadow: 0px 0px 18px -4px rgba(210, 210, 210, 0.75); }
   .card_menu .title {
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    opacity: 0.75;
+    transition: 1s; }
   .card_menu .subtitle {
     text-transform: uppercase;
     font-size: 1.5rem; }
+  .card_menu:hover {
+    box-shadow: 0px 0px 18px -4px rgba(210, 210, 210, 0.75); }
+    .card_menu:hover .title {
+      font-size: 1.9rem;
+      opacity: 1; }
 
 .lien_menu {
   text-decoration: none; }
