@@ -1,0 +1,12 @@
+.green_theme{
+    background: $colour-back-green;
+    & .title{
+        background: linear-gradient(to right,rgb(78,160,67),rgb(190,255,127));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Kaushan Script';
+    }
+    & .subtitle{
+        color:rgb(114,191,86);
+    }
+}

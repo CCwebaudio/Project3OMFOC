@@ -1,0 +1,21 @@
+.orablue_theme{
+    background: $colour-back-orablue;
+    & .title{
+        background: linear-gradient(to right,rgb(220,133,39),rgb(143,90,255));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Redressed';
+    }
+    & .subtitle{
+        color:rgb(199,116,18);
+    }
+    & .starter{
+        color: rgb(198,116,18);
+    }
+    & .dish{
+        color: rgb(165,103,153);
+    }
+    & .dessert{
+        color: rgb(110,76,204);
+    }
+}

@@ -1,0 +1,12 @@
+.blue_theme{
+    background: colour-back-blue;
+    & .title{
+        background: linear-gradient(to right,rgb(2,53,225),rgb(8,137,251));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Dancing Script';
+    }
+    & .subtitle{
+        color: rgb(8,137,251);
+    }
+}

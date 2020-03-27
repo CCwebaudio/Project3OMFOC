@@ -1,0 +1,33 @@
+.prochainement{
+    display: flex;
+    justify-content: center;
+    & .prochainement_btn{
+        display: flex;
+        color: #fcca46;
+        font-size: 1.25rem;
+        background-color: #569c87;
+        border-radius: 10px;
+        padding: 15px 30px;
+        text-decoration: none;
+        font-family: 'Spartan';
+        & .three_point{
+            display: flex;
+            & .little_point{
+                position: relative;
+                top: 12px;
+                margin-left: 5px;
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                background-color: #fcca46;
+            }
+        }
+    }
+}
+
+.footer_btn{
+    color: #fcca46;
+    text-decoration: none;
+    font-family: 'Spartan';
+    padding: 20px;
+}

@@ -1,0 +1,11 @@
+.header {
+    background: $colour-primary;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    img{
+        margin: 15px 0;
+    }
+}
