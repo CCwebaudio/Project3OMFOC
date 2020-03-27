@@ -7,6 +7,14 @@
         font-family: 'Dancing Script';
     }
     & .subtitle{
+        text-transform: none;
+        font-family: 'Kalam', cursive;
         color: rgb(8,137,251);
+    }
+    & .part_title{
+        font-family: 'Kalam', cursive;
+    }
+    & li{
+        font-family: 'Kalam', cursive;
     }
 }

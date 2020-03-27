@@ -6,6 +6,7 @@
     }
     & .subtitle{
         color: $colour-black;
+        font-family: 'Kalam', cursive;
     }
     & .fa-music{
         font-size: 2.5rem;
@@ -19,5 +20,12 @@
         & .fa-music{
             margin-right: 20px;
         }
+    }
+    & .part_title{
+        font-weight: 500;
+        font-family: 'Kalam', cursive;
+    }
+    & li{
+        font-family: 'Kalam', cursive;
     }
 }

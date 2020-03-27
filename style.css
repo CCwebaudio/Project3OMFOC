@@ -103,7 +103,20 @@ html {
     .details_menu .details_menu_header .title {
       font-size: 2rem; }
   .details_menu .part_title {
-    text-align: center; }
+    display: flex;
+    justify-content: center; }
+    .details_menu .part_title h4 {
+      cursor: pointer; }
+    .details_menu .part_title h4:after {
+      content: '';
+      display: block;
+      height: 2px;
+      width: 0;
+      background: transparent;
+      transition: width .5s ease, background-color .5s ease; }
+    .details_menu .part_title h4:hover:after {
+      width: 100%;
+      background: #000; }
   .details_menu .dish_price {
     display: flex;
     width: 100%;
@@ -114,8 +127,9 @@ html {
       padding-inline-start: 0;
       margin-block-start: 0;
       margin-block-end: 0;
-      margin: 10px 20px 10px 20px; }
+      margin: 5px 45px 5px 45px; }
       .details_menu .dish_price .dish_details li {
+        font-size: 0.8rem;
         list-style-type: none; }
 
 .pink_theme {
@@ -124,7 +138,8 @@ html {
     color: #000;
     font-family: 'Zhi Mang Xing'; }
   .pink_theme .subtitle {
-    color: #000; }
+    color: #000;
+    font-family: 'Kalam', cursive; }
   .pink_theme .fa-music {
     font-size: 2.5rem;
     background: linear-gradient(to right, #f15861, #f6a183);
@@ -135,6 +150,11 @@ html {
     justify-content: center; }
     .pink_theme .details_menu_footer .fa-music {
       margin-right: 20px; }
+  .pink_theme .part_title {
+    font-weight: 500;
+    font-family: 'Kalam', cursive; }
+  .pink_theme li {
+    font-family: 'Kalam', cursive; }
 
 .orablue_theme {
   background: #fef5fd; }
@@ -144,13 +164,20 @@ html {
     -webkit-text-fill-color: transparent;
     font-family: 'Redressed'; }
   .orablue_theme .subtitle {
+    text-transform: none;
     color: #c77412; }
   .orablue_theme .starter {
     color: #c67412; }
+    .orablue_theme .starter h4:hover:after {
+      background: #c67412; }
   .orablue_theme .dish {
     color: #a56799; }
+    .orablue_theme .dish h4:hover:after {
+      background: #a56799; }
   .orablue_theme .dessert {
     color: #6e4ccc; }
+    .orablue_theme .dessert h4:hover:after {
+      background: #6e4ccc; }
 
 .green_theme {
   background: #fdfffd; }
@@ -160,7 +187,13 @@ html {
     -webkit-text-fill-color: transparent;
     font-family: 'Kaushan Script'; }
   .green_theme .subtitle {
+    text-transform: none;
+    font-family: 'Kalam', cursive;
     color: #72bf56; }
+  .green_theme .part_title {
+    font-family: 'Kalam', cursive; }
+  .green_theme li {
+    font-family: 'Kalam', cursive; }
 
 .blue_theme {
   background: colour-back-blue; }
@@ -170,7 +203,13 @@ html {
     -webkit-text-fill-color: transparent;
     font-family: 'Dancing Script'; }
   .blue_theme .subtitle {
+    text-transform: none;
+    font-family: 'Kalam', cursive;
     color: #0889fb; }
+  .blue_theme .part_title {
+    font-family: 'Kalam', cursive; }
+  .blue_theme li {
+    font-family: 'Kalam', cursive; }
 
 .header {
   background: #569c87;

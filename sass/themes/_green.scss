@@ -7,6 +7,14 @@
         font-family: 'Kaushan Script';
     }
     & .subtitle{
+        text-transform: none;
+        font-family: 'Kalam', cursive;
         color:rgb(114,191,86);
+    }
+    & .part_title{
+        font-family: 'Kalam', cursive;
+    }
+    & li{
+        font-family: 'Kalam', cursive;
     }
 }

@@ -7,15 +7,25 @@
         font-family: 'Redressed';
     }
     & .subtitle{
+        text-transform: none;
         color:rgb(199,116,18);
     }
     & .starter{
         color: rgb(198,116,18);
+        & h4:hover:after {
+            background: rgb(198,116,18);
+        }
     }
     & .dish{
         color: rgb(165,103,153);
+        & h4:hover:after {
+            background: rgb(165,103,153);
+        }
     }
     & .dessert{
         color: rgb(110,76,204);
+        & h4:hover:after {
+            background: rgb(110,76,204);
+        }
     }
 }
