@@ -1,12 +1,15 @@
 @import "./base/base";
 
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./utils/animations";
+@import "./utils/maps";
+
 
 @import "./components/buttons";
 
 
-@import "./utils/variables";
-@import "./utils/mixins";
-@import "./utils/animations";
+
 
 
 @import "./pages/card_menu";

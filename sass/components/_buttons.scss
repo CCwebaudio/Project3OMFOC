@@ -1,6 +1,9 @@
 .prochainement{
     display: flex;
     justify-content: center;
+    @include tablette-only{
+        margin-bottom: 100px;
+    }
     & .prochainement_btn{
         display: flex;
         color: #fcca46;
@@ -10,9 +13,16 @@
         padding: 15px 30px;
         text-decoration: none;
         font-family: 'Spartan';
+        @include mobile-only{
+            font-size: 1rem;
+            padding: 10px 20px;
+        }
         & .three_point{
             display: flex;
             margin-left: 5px;
+            @include mobile-only{
+                margin-left: 2px;
+            }
             & .little_point{
                 position: relative;
                 top: 7px;
@@ -21,6 +31,11 @@
                 height: 6px;
                 border-radius: 50%;
                 background-color: #fcca46;
+                @include mobile-only{
+                    top:5px;
+                    width:4px;
+                    height:4px;
+                }
             }
             & .first{
                 animation: bounce_first 0.9s infinite;

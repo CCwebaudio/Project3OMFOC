@@ -3,4 +3,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 120px 0 75px 0;
+    @include tablette-only{
+        margin-bottom: 0;
+    }
 }
