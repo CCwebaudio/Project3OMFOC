@@ -1,7 +1,7 @@
 .prochainement{
     display: flex;
     justify-content: center;
-    @include tablette-only{
+    @include desktop-only{
         margin-bottom: 100px;
     }
     & .prochainement_btn{
