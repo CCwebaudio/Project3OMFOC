@@ -1,6 +1,7 @@
 html {
   font-size: 16px; }
 
+/* base main*/
 @keyframes wiggle {
   0% {
     transform: rotate(0deg); }
@@ -129,9 +130,16 @@ html {
       font-size: 2rem; }
   .details_menu .part_title {
     display: flex;
-    justify-content: center; }
+    justify-content: space-around;
+    align-items: center; }
+    .details_menu .part_title .deco {
+      width: 30%;
+      height: 5%; }
     .details_menu .part_title h4 {
       cursor: pointer; }
+      @media screen and (max-width: 599px) {
+        .details_menu .part_title h4 {
+          font-size: 0.75rem; } }
     .details_menu .part_title h4:after {
       content: '';
       display: block;
@@ -242,6 +250,7 @@ html {
   .blue_theme li {
     font-family: 'Kalam', cursive; }
 
+/* dans la base main */
 .header {
   background: #569c87;
   display: flex;
@@ -266,7 +275,7 @@ html {
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 120px 0 75px 0; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 768px) {
     .principal_body {
       margin-bottom: 0; } }
 

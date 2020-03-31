@@ -22,9 +22,17 @@
     }
     & .part_title{
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+        & .deco{
+            width: 30%;
+            height: 5%;
+        }
         & h4{
             cursor: pointer;
+            @include mobile-only{
+                font-size: 0.75rem;
+            }
         }
         & h4:after {
             content: '';
