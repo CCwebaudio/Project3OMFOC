@@ -3,6 +3,12 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 120px 0 75px 0;
+    .container .menu_title{
+        text-align: center;
+    }
+    .lien_menu{
+        text-decoration: none;
+    }
     @include tablette-only{
         margin-bottom: 0;
     }

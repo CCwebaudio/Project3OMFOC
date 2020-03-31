@@ -1,20 +1,33 @@
 .blue_theme{
-    background: colour-back-blue;
-    & .title{
+    background:$colour-back-blue;
+    .title{
         background: linear-gradient(to right,rgb(2,53,225),rgb(8,137,251));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-family: 'Dancing Script';
     }
-    & .subtitle{
+    .subtitle{
         text-transform: none;
         font-family: 'Kalam', cursive;
         color: rgb(8,137,251);
     }
-    & .part_title{
+    .part_title{
         font-family: 'Kalam', cursive;
     }
-    & li{
+
+    .starter h4:hover:after{
+        background: rgb(2,40,221);
+    }
+
+    .dish h4:hover:after{
+        background: rgb(6,112,243);
+    }
+
+    .dessert h4:hover:after{
+        background: rgb(34,157,249);
+    }
+
+    li{
         font-family: 'Kalam', cursive;
     }
 }

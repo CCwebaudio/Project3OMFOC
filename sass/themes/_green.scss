@@ -1,20 +1,23 @@
 .green_theme{
     background: $colour-back-green;
-    & .title{
+    .title{
         background: linear-gradient(to right,rgb(78,160,67),rgb(190,255,127));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-family: 'Kaushan Script';
     }
-    & .subtitle{
+    .subtitle{
         text-transform: none;
         font-family: 'Kalam', cursive;
         color:rgb(114,191,86);
     }
-    & .part_title{
+    .part_title{
         font-family: 'Kalam', cursive;
+        h4:hover:after{
+            background: rgb(111,188,84);
+        }
     }
-    & li{
+    li{
         font-family: 'Kalam', cursive;
     }
 }

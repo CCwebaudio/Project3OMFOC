@@ -4,7 +4,7 @@
     @include desktop-only{
         margin-bottom: 100px;
     }
-    & .prochainement_btn{
+    .prochainement_btn{
         display: flex;
         color: $colour-secondary;
         font-size: 1.25rem;
@@ -17,13 +17,13 @@
             font-size: 1rem;
             padding: 10px 20px;
         }
-        & .three_point{
+        .three_point{
             display: flex;
             margin-left: 5px;
             @include mobile-only{
                 margin-left: 2px;
             }
-            & .little_point{
+            .little_point{
                 position: relative;
                 top: 7px;
                 margin-left: 5px;
@@ -37,13 +37,13 @@
                     height:4px;
                 }
             }
-            & .first{
+            .first{
                 animation: bounce_first 0.9s infinite;
             }
-            & .second{
+            .second{
                 animation: bounce_second 0.9s infinite;
             }
-            & .third{
+            .third{
                 animation: bounce_third 0.9s infinite;
             }
         }
@@ -55,7 +55,10 @@
     text-decoration: none;
     font-family: 'Spartan';
     padding: 20px;
-    &:hover{
+    @media screen and (max-width: 320px){ 
+        font-size: 12px;
+    }
+    :hover{
         animation: wiggle 1.5s infinite;
     }
 }

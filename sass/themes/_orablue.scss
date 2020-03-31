@@ -1,30 +1,30 @@
 .orablue_theme{
     background: $colour-back-orablue;
-    & .title{
+    .title{
         background: linear-gradient(to right,rgb(220,133,39),rgb(143,90,255));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-family: 'Redressed';
     }
-    & .subtitle{
+    .subtitle{
         text-transform: none;
         color:rgb(199,116,18);
     }
-    & .starter{
+    .starter{
         color: rgb(198,116,18);
-        & h4:hover:after {
+        h4:hover:after {
             background: rgb(198,116,18);
         }
     }
-    & .dish{
+    .dish{
         color: rgb(165,103,153);
-        & h4:hover:after {
+        h4:hover:after {
             background: rgb(165,103,153);
         }
     }
-    & .dessert{
+    .dessert{
         color: rgb(110,76,204);
-        & h4:hover:after {
+        h4:hover:after {
             background: rgb(110,76,204);
         }
     }

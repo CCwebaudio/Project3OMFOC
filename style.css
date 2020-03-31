@@ -78,7 +78,10 @@ html {
   text-decoration: none;
   font-family: 'Spartan';
   padding: 20px; }
-  .footer_btn:hover {
+  @media screen and (max-width: 320px) {
+    .footer_btn {
+      font-size: 12px; } }
+  .footer_btn :hover {
     animation: wiggle 1.5s infinite; }
 
 .card_menu {
@@ -122,22 +125,23 @@ html {
       transform: scale(1.3);
       opacity: 0.9; }
     .card_menu:hover .fa-music {
-      transform: scale(1.3);
+      transform: scale(1.1);
       opacity: 0.9; }
-
-.lien_menu {
-  text-decoration: none; }
 
 .details_menu {
   width: 500px;
   padding-bottom: 70px;
   display: flex;
   flex-direction: column;
-  box-shadow: 0px 0px 18px -4px rgba(180, 178, 178, 0.75); }
+  box-shadow: 0px 0px 18px -4px rgba(180, 178, 178, 0.75);
+  margin-bottom: 70px; }
   @media screen and (max-width: 599px) {
     .details_menu {
       width: 330px;
       margin-bottom: 80px; } }
+  @media screen and (max-width: 320px) {
+    .details_menu {
+      width: 280px; } }
   .details_menu .details_menu_header {
     display: flex;
     flex-direction: column;
@@ -251,11 +255,13 @@ html {
     color: #72bf56; }
   .green_theme .part_title {
     font-family: 'Kalam', cursive; }
+    .green_theme .part_title h4:hover:after {
+      background: #6fbc54; }
   .green_theme li {
     font-family: 'Kalam', cursive; }
 
 .blue_theme {
-  background: colour-back-blue; }
+  background: #edefef; }
   .blue_theme .title {
     background: linear-gradient(to right, #0235e1, #0889fb);
     -webkit-background-clip: text;
@@ -267,6 +273,12 @@ html {
     color: #0889fb; }
   .blue_theme .part_title {
     font-family: 'Kalam', cursive; }
+  .blue_theme .starter h4:hover:after {
+    background: #0228dd; }
+  .blue_theme .dish h4:hover:after {
+    background: #0670f3; }
+  .blue_theme .dessert h4:hover:after {
+    background: #229df9; }
   .blue_theme li {
     font-family: 'Kalam', cursive; }
 
@@ -295,6 +307,10 @@ html {
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 120px 0 75px 0; }
+  .principal_body .container .menu_title {
+    text-align: center; }
+  .principal_body .lien_menu {
+    text-decoration: none; }
   @media screen and (max-width: 768px) {
     .principal_body {
       margin-bottom: 0; } }

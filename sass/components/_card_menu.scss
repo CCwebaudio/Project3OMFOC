@@ -12,21 +12,21 @@
     @include mobile-only{
         margin: 0px 0px 50px 0px;
     }
-    & .title{
+    .title{
         font-size: 1.5rem;
         display: block;
         transform: scale(1);
         transition: transform 300ms ease-in-out;
         opacity: 1;  
     }
-    & .subtitle{
+    .subtitle{
         font-size: 1rem;
         display: block;
         transform: scale(1);
         transition: transform 300ms ease-in-out;
         opacity: 1;
     }
-    & .fa-music{
+    .fa-music{
         font-size: 1rem;
         display: block;
         transform: scale(1);
@@ -36,21 +36,17 @@
 
     &:hover{
         box-shadow: 0px 0px 18px -4px rgba(210, 210, 210, 0.75);
-        & .title{
+        .title{
             transform: scale(1.2);
             opacity: 0.9;
         }
-        & .subtitle{
+        .subtitle{
             transform: scale(1.3);
             opacity: 0.9;
         }
-        & .fa-music{
-            transform: scale(1.3);
+        .fa-music{
+            transform: scale(1.1);
             opacity: 0.9;
         }
     }
-}
-
-.lien_menu{
-    text-decoration: none;
 }
