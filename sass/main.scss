@@ -1,6 +1,5 @@
-@import "./base/base";
+@import "./base/typography";
 
-/* base main*/
 @import "./utils/variables";
 @import "./utils/mixins";
 @import "./utils/animations";
@@ -11,12 +10,6 @@
 @import "./components/card_menu";
 @import "./components/details_menu";
 
-@import "./themes/pink";
-@import "./themes/orablue";
-@import "./themes/green";
-@import "./themes/blue";
-
-/* dans la base main */
 @import "./layout/header"; 
 @import "./layout/footer";
 @import "./layout/principal_body";

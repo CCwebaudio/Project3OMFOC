@@ -1,0 +1,88 @@
+.blue_theme {
+  background: #edefef; }
+  .blue_theme .title {
+    background: linear-gradient(to right, #0235e1, #0889fb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Dancing Script"; }
+  .blue_theme .subtitle {
+    text-transform: none;
+    font-family: 'Kalam', cursive;
+    color: #0889fb; }
+  .blue_theme .part_title {
+    font-family: 'Kalam', cursive; }
+  .blue_theme .starter h4:hover:after {
+    background: #0228dd; }
+  .blue_theme .dish h4:hover:after {
+    background: #0670f3; }
+  .blue_theme .dessert h4:hover:after {
+    background: #229df9; }
+  .blue_theme li {
+    font-family: 'Kalam', cursive; }
+
+.green_theme {
+  background: #fdfffd; }
+  .green_theme .title {
+    background: linear-gradient(to right, #4ea043, #beff7f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Kaushan Script'; }
+  .green_theme .subtitle {
+    text-transform: none;
+    font-family: 'Kalam', cursive;
+    color: #72bf56; }
+  .green_theme .part_title {
+    font-family: 'Kalam', cursive; }
+    .green_theme .part_title h4:hover:after {
+      background: #6fbc54; }
+  .green_theme li {
+    font-family: 'Kalam', cursive; }
+
+.orablue_theme {
+  background: #fef5fd; }
+  .orablue_theme .title {
+    background: linear-gradient(to right, #dc8527, #8f5aff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Redressed'; }
+  .orablue_theme .subtitle {
+    text-transform: none;
+    color: #c77412; }
+  .orablue_theme .starter {
+    color: #c67412; }
+    .orablue_theme .starter h4:hover:after {
+      background: #c67412; }
+  .orablue_theme .dish {
+    color: #a56799; }
+    .orablue_theme .dish h4:hover:after {
+      background: #a56799; }
+  .orablue_theme .dessert {
+    color: #6e4ccc; }
+    .orablue_theme .dessert h4:hover:after {
+      background: #6e4ccc; }
+
+.pink_theme {
+  background: #fcdfda; }
+  .pink_theme .title {
+    color: #000;
+    font-family: 'Zhi Mang Xing', cursive; }
+  .pink_theme .subtitle {
+    color: #000;
+    font-family: 'Kalam', cursive; }
+  .pink_theme .fa-music {
+    font-size: 2.5rem;
+    background: linear-gradient(to right, #f15861, #f6a183);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .pink_theme .details_menu_footer {
+    display: flex;
+    justify-content: center; }
+    .pink_theme .details_menu_footer .fa-music {
+      margin-right: 20px; }
+  .pink_theme .part_title {
+    font-weight: 500;
+    font-family: 'Kalam' , cursive; }
+  .pink_theme li {
+    font-family: 'Kalam', cursive; }
+
+/*# sourceMappingURL=look_themes.css.map */
