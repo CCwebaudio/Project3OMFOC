@@ -189,9 +189,7 @@
     .details_menu .dish_price .dish_details {
       display: flex;
       justify-content: space-between;
-      padding-inline-start: 0;
-      margin-block-start: 0;
-      margin-block-end: 0;
+      padding: 0;
       margin: 5px 45px; }
       @media screen and (max-width: 599px) {
         .details_menu .dish_price .dish_details {
