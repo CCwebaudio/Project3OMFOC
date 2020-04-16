@@ -1,9 +1,7 @@
-
-  
 .blue_theme{
     background:$colour-back-blue;
     .title{
-        background: linear-gradient(to right,rgb(2,53,225),rgb(8,137,251));
+        background: linear-gradient(to right,$color-titleftblue,$color-titright-blue);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-family: 'Dancing Script' ;
@@ -11,22 +9,22 @@
     .subtitle{
         text-transform: none;
         font-family: 'Kalam', cursive;
-        color: rgb(8,137,251);
+        color: $color-titright-blue;
     }
     .part_title{
         font-family: 'Kalam', cursive;
     }
 
     .starter h4:hover:after{
-        background: rgb(2,40,221);
+        background: $color-under-blue;
     }
 
     .dish h4:hover:after{
-        background: rgb(6,112,243);
+        background: $color-under-lightblue;
     }
 
     .dessert h4:hover:after{
-        background: rgb(34,157,249);
+        background: $color-under-extralightblue;
     }
 
     li{

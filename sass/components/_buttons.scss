@@ -6,9 +6,9 @@
     }
     .prochainement_btn{
         display: flex;
-        color: $colour-secondary;
+        color: $color-secondary-principaltheme;
         font-size: 1.25rem;
-        background-color: #569c87;
+        background-color: $color-primary-principaltheme;
         border-radius: 10px;
         padding: 15px 30px;
         text-decoration: none;
@@ -30,7 +30,7 @@
                 width: 6px;
                 height: 6px;
                 border-radius: 50%;
-                background-color: #fcca46;
+                background-color: $color-secondary-principaltheme;
                 @include mobile-only{
                     top:5px;
                     width:4px;
@@ -51,7 +51,7 @@
 }
 
 .footer_btn{
-    color: #fcca46;
+    color: $color-secondary-principaltheme;
     text-decoration: none;
     font-family: 'Spartan';
     padding: 20px;

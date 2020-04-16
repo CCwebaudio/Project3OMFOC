@@ -1,18 +1,16 @@
 .pink_theme{
     background: $colour-back-pink;
     .title{
-        color: $colour-black;
         font-family: 'Zhi Mang Xing', cursive;
     }
     .subtitle{
-        color: $colour-black;
         font-family: 'Kalam', cursive;
     }
     .fa-music{
         font-size: 2.5rem;
-        background: linear-gradient(to right, rgb(241,88,97), rgb(246,161,131));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        background: linear-gradient(to right, $color-icoleft-pink, $color-icoright-pink;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
     }
     .details_menu_footer{
         display: flex;
