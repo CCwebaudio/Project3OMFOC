@@ -1,0 +1,23 @@
+.legals_mentions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding-bottom: 100px;
+    font-family: 'Kalam', cursive;
+    a{
+        text-decoration: none;
+        color: $color-secondary-principaltheme;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    h5{
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        color: $color-primary-principaltheme;
+    }
+    p{
+        width: 80%;
+    }
+}

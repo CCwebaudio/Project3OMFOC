@@ -66,10 +66,8 @@
 
 .prochainement {
   display: flex;
-  justify-content: center; }
-  @media screen and (max-width: 1024px) {
-    .prochainement {
-      margin-bottom: 100px; } }
+  justify-content: center;
+  margin-bottom: 110px; }
   .prochainement .prochainement_btn {
     display: flex;
     color: #fcca46;
@@ -127,7 +125,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0px 20px 50px 20px;
+  margin: 0px 20px 25px 20px;
   box-shadow: 0px 0px 18px -4px rgba(180, 178, 178, 0.75); }
   @media screen and (max-width: 599px) {
     .card_menu {
@@ -211,6 +209,25 @@
       .details_menu .dish_price .dish_details li {
         font-size: 0.8rem;
         list-style-type: none; }
+
+.legals_mentions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  padding-bottom: 100px;
+  font-family: 'Kalam', cursive; }
+  .legals_mentions a {
+    text-decoration: none;
+    color: #fcca46; }
+  .legals_mentions h3 {
+    font-size: 2rem; }
+  .legals_mentions h5 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #569c87; }
+  .legals_mentions p {
+    width: 80%; }
 
 .header {
   background: #569c87;

@@ -1,9 +1,7 @@
 .prochainement{
     display: flex;
     justify-content: center;
-    @include desktop-only{
-        margin-bottom: 100px;
-    }
+    margin-bottom: 110px;
     .prochainement_btn{
         display: flex;
         color: $color-secondary-principaltheme;
