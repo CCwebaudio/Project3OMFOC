@@ -1,5 +1,5 @@
 .orablue_theme{
-    background: $colour-back-orablue;
+    background: $color-back-orablue;
     .title{
         background: linear-gradient(to right, $color-titleft-orablue, $color-titright-orablue);
         -webkit-background-clip: text;
@@ -12,6 +12,11 @@
     }
     .starter{
         color: $color-orange-orablue;
+        h4{
+            @include mobile-only{
+                font-size: 0.9rem;
+            }
+        }
         h4:hover:after {
             background: $color-orange-orablue;
         }

@@ -39,7 +39,7 @@
     font-family: 'Kalam', cursive; }
 
 .orablue_theme {
-  background: #fef5fd; }
+  background: #fef5fb; }
   .orablue_theme .title {
     background: linear-gradient(to right, #dc8527, #8f5aff);
     -webkit-background-clip: text;
@@ -47,9 +47,12 @@
     font-family: 'Redressed'; }
   .orablue_theme .subtitle {
     text-transform: none;
-    color: #c77412; }
+    color: #c67412; }
   .orablue_theme .starter {
     color: #c67412; }
+    @media screen and (max-width: 599px) {
+      .orablue_theme .starter h4 {
+        font-size: 0.9rem; } }
     .orablue_theme .starter h4:hover:after {
       background: #c67412; }
   .orablue_theme .dish {
@@ -64,10 +67,8 @@
 .pink_theme {
   background: #fcdfda; }
   .pink_theme .title {
-    color: #000;
     font-family: 'Zhi Mang Xing', cursive; }
   .pink_theme .subtitle {
-    color: #000;
     font-family: 'Kalam', cursive; }
   .pink_theme .fa-music {
     font-size: 2.5rem;

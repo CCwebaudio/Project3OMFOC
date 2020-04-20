@@ -1,5 +1,5 @@
 .pink_theme{
-    background: $colour-back-pink;
+    background: $color-back-pink;
     .title{
         font-family: 'Zhi Mang Xing', cursive;
     }
@@ -8,7 +8,7 @@
     }
     .fa-music{
         font-size: 2.5rem;
-        background: linear-gradient(to right, $color-icoleft-pink, $color-icoright-pink;
+        background: linear-gradient(to right, $color-icoleft-pink, $color-icoright-pink);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
     }
