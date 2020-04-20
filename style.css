@@ -180,7 +180,7 @@
       cursor: pointer; }
       @media screen and (max-width: 599px) {
         .details_menu .part_title h4 {
-          font-size: 0.75rem; } }
+          text-align: center; } }
     .details_menu .part_title h4:after {
       content: '';
       display: block;
@@ -207,7 +207,7 @@
           text-align: center;
           margin: 10px 35px; } }
       .details_menu .dish_price .dish_details li {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         list-style-type: none; }
 
 .legals_mentions {

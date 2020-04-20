@@ -12,11 +12,6 @@
     }
     .starter{
         color: $color-orange-orablue;
-        h4{
-            @include mobile-only{
-                font-size: 0.9rem;
-            }
-        }
         h4:hover:after {
             background: $color-orange-orablue;
         }
